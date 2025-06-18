@@ -1,8 +1,10 @@
 # DIP_Denoising_project
 🧠 Digital Image Processing Project: Image Denoising with DnCNN
+
 Self-driving cars rely heavily on image data, which can be degraded by noise, especially under low-light conditions. This project aims to improve image quality using both classical methods and deep learning (DnCNN).
 
 📁 Dataset & Tools
+
 Train: BSD400
 
 Validation: Set12
@@ -12,6 +14,7 @@ Test: BSD68
 Environment: Google Colab, PyTorch
 
 🔧 Methods
+
 1. Classical Denoising
 Gaussian Filter: good for random noise removal, but causes edge blur.
 
@@ -23,6 +26,7 @@ Deep CNN model using residual learning.
 Outperforms classical filters, especially in high-noise scenarios.
 
 3. DnCNN (Revised)
+   
 Modified structure:
 
 Depth: 17 → 18 layers
@@ -44,6 +48,7 @@ Noise σ )	Gaussian / Median	/ DnCNN (Pre)	/ DnCNN (Rev)
 σ = 50 )	22.73 / 0.45	21.38 / 0.37	26.21 / 0.71	32.93 / 0.88
 
 ✅ Conclusion
+
 DnCNN significantly outperforms classical methods in image denoising.
 
 Revised model proves particularly effective under high-noise conditions (σ=50).

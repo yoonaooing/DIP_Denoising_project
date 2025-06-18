@@ -54,6 +54,29 @@ Noise σ )	Gaussian / Median	/ DnCNN (Pre)	/ DnCNN (Rev)
 
 ✅ Conclusion
 
+DnCNN (Pretrained) outperformed classical denoising filters (Gaussian, Median) across all noise levels:
+
+At σ = 15, DnCNN improved PSNR by +1.85 dB (vs. Gaussian) and SSIM by +0.08
+
+At σ = 25, DnCNN improved PSNR by +1.89 dB (vs. Gaussian) and SSIM by +0.14
+
+At σ = 50, DnCNN improved PSNR by +3.48 dB (vs. Gaussian) and SSIM by +0.26
+
+DnCNN (Revised) architecture further enhanced denoising performance:
+
+At σ = 50, Revised DnCNN achieved PSNR of 32.93 dB, +6.72 dB higher than Gaussian and +1.72 dB higher than Pretrained DnCNN
+
+At σ = 25, performance gain was +3.06 dB over Gaussian and +1.18 dB over Pretrained
+
+SSIM values also approached 0.89, indicating high structural similarity to ground truth images even under heavy noise
+
+The revised architecture proved especially effective in high-noise scenarios, validating that:
+
+Increasing depth (17 → 18 layers) and width (64 → 128 channels) enables better feature extraction
+
+Model optimization (e.g., early stopping, patching strategy) enhances stability and generalization
+//
+
 DnCNN significantly outperforms classical methods in image denoising.
 
 Revised model proves particularly effective under high-noise conditions (σ=50).

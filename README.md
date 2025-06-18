@@ -35,7 +35,7 @@ Added early stopping, memory optimization, and patch generation refinement.
 
 📊 Results (PSNR / SSIM)
 
-Noise σ	Gaussian	Median	DnCNN (Pre)	DnCNN (Rev)
+Noise σ )	Gaussian / Median	/ DnCNN (Pre)	/ DnCNN (Rev)
 
 σ = 15 )	29.86 / 0.81	28.69 / 0.75	31.71 / 0.89	32.96 / 0.89
 

@@ -1,5 +1,5 @@
 # DIP_Denoising_project
-🧠 DIP Term Project: Image Denoising with DnCNN
+🧠 Digital Image Processing Project: Image Denoising with DnCNN
 Self-driving cars rely heavily on image data, which can be degraded by noise, especially under low-light conditions. This project aims to improve image quality using both classical methods and deep learning (DnCNN).
 
 📁 Dataset & Tools
@@ -37,11 +37,11 @@ Added early stopping, memory optimization, and patch generation refinement.
 
 Noise σ	Gaussian	Median	DnCNN (Pre)	DnCNN (Rev)
 
-15	29.86 / 0.81	28.69 / 0.75	31.71 / 0.89	32.96 / 0.89
+σ = 15 )	29.86 / 0.81	28.69 / 0.75	31.71 / 0.89	32.96 / 0.89
 
-25	27.31 / 0.68	26.02 / 0.60	29.20 / 0.83	30.38 / 0.83
+σ = 25 )	27.31 / 0.68	26.02 / 0.60	29.20 / 0.83	30.38 / 0.83
 
-50	22.73 / 0.45	21.38 / 0.37	26.21 / 0.71	32.93 / 0.88
+σ = 50 )	22.73 / 0.45	21.38 / 0.37	26.21 / 0.71	32.93 / 0.88
 
 ✅ Conclusion
 DnCNN significantly outperforms classical methods in image denoising.

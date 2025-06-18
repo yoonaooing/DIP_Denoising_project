@@ -1,8 +1,9 @@
 # DIP_Denoising_project
-🧠 Digital Image Processing Project: Image Denoising with DnCNN
+🧠 Digital Image Processing Project: Image Denoising with DnCNN (DnCNN을 활용한 이미지 노이즈 제거)
 
 Self-driving cars rely heavily on image data, which can be degraded by noise, especially under low-light conditions. 
 This project aims to improve image quality using both classical methods and deep learning (DnCNN).
+
 
 📁 Dataset & Tools
 
